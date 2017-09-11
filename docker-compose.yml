@@ -1,0 +1,9 @@
+version: '2'
+services:
+  image_tag:
+    image: image_tag:1.0.1
+    container_name: image-tag
+    ports:
+      - "5519:5519"
+    #environment:
+    #  - PYTHON_ARGS:"Any additional args go here"

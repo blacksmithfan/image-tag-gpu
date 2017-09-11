@@ -1,0 +1,7 @@
+version: '2'
+services:
+  image_tag:
+    image: http://docker-registry.pegasus.ae/data-science/image_tag:1.0.1
+    container_name: image-tag
+    ports:
+      - "5519:5519"
